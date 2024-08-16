@@ -1,0 +1,97 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #698474;
+  }
+  
+  h1.title {
+    text-align: center;
+    color: #698474;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    font-family: Open serif;
+  }
+  
+  .team-stats {
+    background-color: #698474;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    color: #fff; 
+    max-width: 400px;
+    margin: 0 auto 30px auto; 
+  }
+  
+  .team-stats p {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  
+  .team-stats p span {
+    font-weight: bold;
+    color: #d1e0e0; 
+  }
+  
+  .options-label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #698474;
+    text-align: center;
+  }
+  
+  select#players {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 0 auto 20px auto;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #698474;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .player-card {
+    background-color: #698474; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    color: #fff;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease; 
+  }
+  
+  .player-card h2 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+  }
+  
+  .player-card p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .player-card:hover {
+    transform: scale(1.05); 
+  }
+  
+
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #698474;
+  }
+  
